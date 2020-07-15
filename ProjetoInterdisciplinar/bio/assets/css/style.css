@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(103, 176, 209, 0.8);
+  background: #46b78c;
   padding: 0;
 }
 
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #fff;
+  color: #2C2C33;
   text-decoration: none;
 }
 
@@ -343,7 +343,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background-color: #46b78c;
   background-size: cover;
   position: relative;
   margin-bottom: -90px;
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  /* flex-direction: column; */
   text-align: center;
 }
 
@@ -368,17 +368,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #fff;
-  text-shadow: -1px 0 2px #2f4d5a;
+  color: #2C2C33;
+
 }
 
 #hero h2 {
-  color: #fff;
+  color: #2C2C33;
   margin-bottom: 50px;
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
-  text-shadow: -1px 0 2px #2f4d5a;
+
 }
 
 #hero .btn-get-started {
@@ -400,13 +400,23 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.15);
 }
 
+
+
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
+  #hero img{
+align-items: left;
+
+}
 }
 
 @media (max-width: 768px) {
+  #hero .hero-container {
+    flex-direction: column;
+  }
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -509,7 +519,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center no-repeat;
+  background: #2C2C33;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -522,7 +532,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.75);
+  background: #2C2C33;
   z-index: 9;
 }
 
@@ -538,12 +548,13 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
-  color: #2f4d5a;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
 .about .content p {
   margin-bottom: 30px;
+  color: #ffff;
 }
 
 .about .content .about-btn {
@@ -581,11 +592,12 @@ section {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
+  color: #fff;
 }
 
 .about .icon-boxes .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #ffff;
 }
 
 @media (max-width: 1200px) {
@@ -603,6 +615,18 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services {
+
+background-color: #46B78C;
+
+}
+
+.services h2, p {
+  color:#2C2C33;
+
+}
+
+
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -627,7 +651,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #67b0d1;
+  background:   #46B78C;
   top: 0;
   border-radius: 0px;
 }
@@ -670,6 +694,12 @@ section {
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
+.counts
+{
+  background-color: #2C2C33;
+
+}
+
 .counts {
   padding-bottom: 30px;
 }
@@ -691,7 +721,7 @@ section {
   line-height: 40px;
   display: block;
   font-weight: 700;
-  color: #2f4d5a;
+  color: #ffff;
   margin-left: 60px;
 }
 
@@ -700,7 +730,7 @@ section {
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
-  color: #49788c;
+  color: #ffff;
 }
 
 .counts .count-box a {
@@ -720,6 +750,22 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.portfolio p {
+
+  color: #ffff;
+}
+
+.portfolio h2 {
+
+  color: #ffff;
+}
+
+
+.portfolio {
+  background-color: #2C2C33;
+
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -729,7 +775,7 @@ section {
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
-  background: #ecf5f9;
+  background: #46B78C;
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -748,7 +794,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #67b0d1;
+  color: #2C2C33;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -908,7 +954,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
+  background: #2C2C33;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -922,7 +968,7 @@ section {
   margin-top: -90px;
   margin-bottom: 15px;
   background: white;
-  color: #2f4d5a;
+  color: #2C2C33;
   border-top: 4px solid #67b0d1;
   text-align: center;
   padding: 30px 20px;

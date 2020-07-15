@@ -36,3 +36,23 @@ ul{
 nav {
   background-color: blue;
 }
+
+.col-lg-6 ul {
+  margin-bottom: 10vh;
+}
+
+.coluna {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2.5vh;
+}
+
+.coluna ol {
+  margin: auto 2.5vw;
+  font-weight: 700;
+  color: red;
+}
+
+.coluna img { 
+  width: 100%;
+}
