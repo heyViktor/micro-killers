@@ -518,14 +518,14 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about {
+.bacteria {
   background: #2C2C33;
   background-size: cover;
   padding: 60px 0;
   position: relative;
 }
 
-.about::before {
+.bacteria::before {
   content: '';
   position: absolute;
   left: 0;
@@ -536,28 +536,28 @@ section {
   z-index: 9;
 }
 
-.about .container {
+.bacteria .container {
   position: relative;
   z-index: 10;
 }
 
-.about .content {
+.bacteria .content {
   padding: 30px 30px 30px 0;
 }
 
-.about .content h3 {
+.bacteria .content h3 {
   font-weight: 700;
   font-size: 34px;
   color: #ffffff;
   margin-bottom: 30px;
 }
 
-.about .content p {
+.bacteria .content p {
   margin-bottom: 30px;
   color: #ffff;
 }
 
-.about .content .about-btn {
+.bacteria .content .about-btn {
   display: inline-block;
   background: #67b0d1;
   padding: 6px 44px 8px 30px;
@@ -567,35 +567,35 @@ section {
   position: relative;
 }
 
-.about .content .about-btn i {
+.bacteria .content .about-btn i {
   font-size: 18px;
   position: absolute;
   right: 18px;
   top: 9px;
 }
 
-.about .content .about-btn:hover {
+.bacteria .content .about-btn:hover {
   background: #7bbad7;
 }
 
-.about .icon-boxes .icon-box {
+.bacteria .icon-boxes .icon-box {
   margin-top: 30px;
 }
 
-.about .icon-boxes .icon-box i {
+.bacteria .icon-boxes .icon-box i {
   font-size: 40px;
   color: #67b0d1;
   margin-bottom: 10px;
 }
 
-.about .icon-boxes .icon-box h4 {
+.bacteria .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
   color: #fff;
 }
 
-.about .icon-boxes .icon-box p {
+.bacteria .icon-boxes .icon-box p {
   font-size: 15px;
   color: #ffff;
 }
@@ -615,19 +615,19 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services {
+.peste {
 
 background-color: #46B78C;
 
 }
 
-.services h2, p {
+.peste h2, p {
   color:#2C2C33;
 
 }
 
 
-.services .icon-box {
+.peste .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -638,7 +638,7 @@ background-color: #46B78C;
   z-index: 1;
 }
 
-.services .icon-box::before {
+.peste .icon-box::before {
   content: '';
   position: absolute;
   background: white;
@@ -650,73 +650,73 @@ background-color: #46B78C;
   z-index: -1;
 }
 
-.services .icon-box:hover::before {
+.peste .icon-box:hover::before {
   background:   #46B78C;
   top: 0;
   border-radius: 0px;
 }
 
-.services .icon {
+.peste .icon {
   margin-bottom: 15px;
 }
 
-.services .icon i {
+.peste .icon i {
   font-size: 48px;
   line-height: 1;
   color: #67b0d1;
   transition: all 0.3s ease-in-out;
 }
 
-.services .title {
+.peste .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.peste .title a {
   color: #111;
 }
 
-.services .description {
+.peste .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
+.peste .icon-box:hover .title a, .services .icon-box:hover .description {
   color: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.peste .icon-box:hover .icon i {
   color: #fff;
 }
 
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
-.counts
+.dados
 {
   background-color: #2C2C33;
 
 }
 
-.counts {
+.dados {
   padding-bottom: 30px;
 }
 
-.counts .count-box {
+.dados .count-box {
   padding: 30px;
   width: 100%;
 }
 
-.counts .count-box i {
+.dados .count-box i {
   display: block;
   font-size: 44px;
   color: #67b0d1;
   float: left;
 }
 
-.counts .count-box span {
+.dados .count-box span {
   font-size: 48px;
   line-height: 40px;
   display: block;
@@ -725,7 +725,7 @@ background-color: #46B78C;
   margin-left: 60px;
 }
 
-.counts .count-box p {
+.dados .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 60px;
   font-family: "Raleway", sans-serif;
@@ -733,7 +733,7 @@ background-color: #46B78C;
   color: #ffff;
 }
 
-.counts .count-box a {
+.dados .count-box a {
   font-weight: 600;
   display: block;
   margin-top: 20px;
@@ -743,7 +743,7 @@ background-color: #46B78C;
   transition: ease-in-out 0.3s;
 }
 
-.counts .count-box a:hover {
+.dados .count-box a:hover {
   color: #6e9fb4;
 }
 
