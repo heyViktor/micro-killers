@@ -56,3 +56,15 @@ nav {
 .coluna img { 
   width: 100%;
 }
+
+.user{
+  transition: width;
+  transition-duration: 1s;
+  border-radius: 100%;
+
+}
+.user:hover{
+ width: 90%;
+ border-radius: 10%;
+}
+
